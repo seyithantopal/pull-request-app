@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face { font-family: Roboto-Thin; src: url('/fonts/Roboto-Thin.ttf'); }
+@font-face { font-family: Roboto-Light; src: url('/fonts/Roboto-Light.ttf'); }
+@font-face { font-family: Roboto-Regular; src: url('/fonts/Roboto-Regular.ttf'); }
+@font-face { font-family: Roboto-Medium; src: url('/fonts/Roboto-Medium.ttf'); }
+
+body {
+    background-color: #fbfbfb;
+    padding-top: 15px;
+}
+
+.search-box {
+    /*background-color: red;*/
+}
+
+.single-list {
+    background-color: #fff;
+    padding: 10px 10px 0 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.single-list div {
+    padding: 5px;
+}
+
+.single-list .title {
+    font: 18px Roboto-Regular;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline;
+}
+
+.single-list .title:hover {
+    color: #515557;
+    text-decoration: underline;
+}
+
+.single-list .labels {
+    display: flex;
+}
+
+.single-list .labels div {
+    margin-right: 10px;
+}
+
+.single-list .label-green {
+    background-color: #38A793;
+    padding: 5px 10px 5px 10px;
+    display: table;
+    color: #fff;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    cursor: pointer;
+    font: 16px Roboto-Light;
+}
+
+.single-list .label-green:hover {
+    background-color: #40bda6;
+}
+
+.single-list .label-blue {
+    background-color: #15ABFF;
+    padding: 5px 10px 5px 10px;
+    display: table;
+    color: #fff;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    cursor: pointer;
+    font: 16px Roboto-Light;
+}
+
+.single-list .label-blue:hover {
+    background-color: #3bb9ff;
+}
+
+.single-list .info {
+    font: 14px Roboto-Light;
+    color: #5F5F5F;
+}
+
+.single-list .request-user {
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+}
